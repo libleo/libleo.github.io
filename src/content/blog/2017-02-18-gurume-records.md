@@ -2,7 +2,7 @@
 title: "孤独のグルメ 笔记"
 description: "孤独美食家的记录"
 pubDate: 2017-02-18
-tags: [foods, nippon]
+tags: [好吃的, 旅行]
 ---
 
 # 孤独美食家笔记

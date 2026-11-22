@@ -2,7 +2,7 @@
 title: "NSAppearance介绍"
 description: "UIAppearance很熟悉，但NSAppearance资料甚少"
 pubDate: 2017-02-27
-tags: [macOS]
+tags: [App开发]
 ---
 
 # 前言

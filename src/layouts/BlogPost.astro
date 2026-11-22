@@ -54,7 +54,14 @@ const { title, description, pubDate, updatedDate, heroImage, tags } = Astro.prop
 				justify-content: center;
 				gap: 0.5em;
 				margin-bottom: 0.5em;
+			}
+			.tags a {
 				color: rgb(var(--gray));
+				text-decoration: none;
+				transition: 0.2s ease;
+			}
+			.tags a:hover {
+				color: rgb(var(--accent));
 			}
 			.last-updated-on {
 				font-style: italic;
@@ -83,7 +90,7 @@ const { title, description, pubDate, updatedDate, heroImage, tags } = Astro.prop
 						{tags && (
 							<div class="tags">
 								{tags.map((tag) => (
-									<span>#{tag}</span>
+									<a href={`/blog/tags/${tag}/`}>#{tag}</a>
 								))}
 							</div>
 						)}

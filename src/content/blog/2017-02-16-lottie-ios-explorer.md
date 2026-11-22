@@ -2,7 +2,7 @@
 title: "探索lottie-iOS"
 description: "粗略看了下lottie-iOS源码，笨办法是好办法"
 pubDate: 2017-02-16
-tags: [iOS, macOS, animation]
+tags: [App开发, App动画]
 ---
 
 # 前言
